@@ -56,7 +56,7 @@ void check_schedule() {
   if ( weekday == true ) {
   
   //turn on curlers in the morning
-  if (hours == 6 && minutes == 00) { relay_on(); }
+  if (hours == 5 && minutes == 45) { relay_on(); }
   if (hours == 7 && minutes == 30) { relay_off(); }
   
   //dim the led at night
