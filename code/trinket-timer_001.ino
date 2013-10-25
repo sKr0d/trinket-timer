@@ -56,8 +56,8 @@ void check_schedule() {
   if ( weekday == true ) {
   
   //turn on curlers in the morning
-  if (hours == 5 && minutes == 45) { relay_on(); }
-  if (hours == 7 && minutes == 30) { relay_off(); }
+  if (hours == 5 && minutes == 15) { relay_on(); }
+  if (hours == 7 && minutes == 00) { relay_off(); }
   
   //dim the led at night
   if (hours > 20 && hours < 24) { matrix.setBrightness(0); }
